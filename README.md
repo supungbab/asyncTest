@@ -342,6 +342,7 @@ const sleep = async time => new Promise(res => setTimeout(res, time));
 }();
 ```
 7. 아래 함수의 내용을 채워주세요.
+
 7-1. pipe 함수를 완성시켜주세요
 ```
 const pipeline = (...funcs) => {
