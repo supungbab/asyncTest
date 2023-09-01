@@ -341,4 +341,14 @@ const sleep = async time => new Promise(res => setTimeout(res, time));
   console.log(reulst);
 }();
 ```
+7. 아래 함수의 내용을 채워주세요.
+7-1. pipe 함수를 완성시켜주세요
+```
+const pipeline = (...funcs) => {
+  // 여기에 코드를 작성. 아래는 정답
+  // return (arg) => funcs.reduce((x, func) => func(x), arg)
+}
+const fun = pipeline(x => x * 3, x => x + 1, x => x / 2);
+console.log(fun(3)); // Should print 5
+```
  해설 예정
